@@ -1,0 +1,37 @@
+These are the datasets that are ignored in the git repo due to size restrictions. If all train1 files are present this can be added back into the catalog json file.
+
+{
+    "rel": "child",
+    "href": "./acc/collection.json",
+    "type": "application/json"
+},
+{
+    "rel": "child",
+    "href": "./ptn/collection.json",
+    "type": "application/json"
+},
+{
+    "rel": "child",
+    "href": "./mon/collection.json",
+    "type": "application/json"
+},
+{
+    "rel": "child",
+    "href": "./ptn/collection.json",
+    "type": "application/json"
+},
+{
+    "rel": "child",
+    "href": "./kam/collection.json",
+    "type": "application/json"
+},
+{
+    "rel": "child",
+    "href": "./dar/collection.json",
+    "type": "application/json"
+},
+{
+    "rel": "child",
+    "href": "./znz/collection.json",
+    "type": "application/json"
+},

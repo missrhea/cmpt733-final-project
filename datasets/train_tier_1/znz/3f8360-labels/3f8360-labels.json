@@ -1,0 +1,90 @@
+{
+    "type": "Feature",
+    "stac_version": "0.8.1",
+    "id": "3f8360-labels",
+    "properties": {
+        "label:description": "Geojson building labels for scene 3f8360",
+        "area": "znz",
+        "label:type": "vector",
+        "label:properties": [
+            "building"
+        ],
+        "label:overviews": [
+            {
+                "property_key": [
+                    "building"
+                ],
+                "counts": [
+                    {
+                        "name": "yes",
+                        "count": 1441
+                    }
+                ]
+            }
+        ],
+        "datetime": "2016-10-08 00:00:00Z"
+    },
+    "geometry": {
+        "coordinates": [
+            [
+                [
+                    39.36446538964943,
+                    -5.9307731675787885
+                ],
+                [
+                    39.36446684258708,
+                    -5.932986095454288
+                ],
+                [
+                    39.34081351509101,
+                    -5.933001162750248
+                ],
+                [
+                    39.34079687232617,
+                    -5.905835680371048
+                ],
+                [
+                    39.364449044832185,
+                    -5.905820682536527
+                ],
+                [
+                    39.36446538964943,
+                    -5.9307731675787885
+                ]
+            ]
+        ],
+        "type": "Polygon"
+    },
+    "bbox": [
+        39.34079687232617,
+        -5.933001162750248,
+        39.36446684258708,
+        -5.905820682536527
+    ],
+    "links": [
+        {
+            "rel": "collection",
+            "href": "../collection.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "root",
+            "href": "../../catalog.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "parent",
+            "href": "../collection.json",
+            "type": "application/json"
+        }
+    ],
+    "assets": {
+        "labels": {
+            "href": "./3f8360.geojson",
+            "type": "application/geo+json"
+        }
+    },
+    "stac_extensions": [
+        "label"
+    ]
+}
